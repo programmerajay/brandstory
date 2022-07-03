@@ -1,0 +1,436 @@
+/* Brand story Assesment styles created by ajay on July 02 
+*/
+/* common styles */
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+html, body{
+  font-family: 'Archivo', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a:hover{
+  color: #000;
+  text-decoration: none;
+}
+
+a{
+  color: #000;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+p{
+    font-size:1rem;
+}
+.greenColor{
+    color: #22B473;
+}
+.greyBg{
+    background-color: #2B2733;
+}
+.blackBg{
+    background-color: #000000;
+}
+.pinkBg{
+    background-color: #A74170;
+}
+.tealBg{
+    background-color: #077F8D;
+}
+
+.lggreyColor{
+  color: #cccccc;
+}
+
+.tealColor{
+    color: #077F8D;
+}
+.pinkColor{
+    color: #A74170;
+}
+.greyColor{
+    color: #2B2733;
+}
+
+.small-p{
+  font-size: 0.8rem;
+}
+
+/*--------------------navbar styles------------------------------*/
+.navbar{
+  background-color: #24336A !important;
+  color: #fff !important;
+  padding: 10px 50px;
+}
+.navbar-nav .nav-item.nav-link{
+  color: #fff !important;
+}
+.navbar-nav .nav-item{
+  margin-right: 20px;
+}
+.navbar-nav .nav-item:last-child{
+  margin-right: 0px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #fff !important;
+}
+.navbar-light .navbar-toggler-icon {
+}
+/*------------------ End of navbar styles----------------------- */
+
+/*-------- Home Banner styles --------*/
+.main-banner{
+    background-color: #24336A;
+    padding: 10px 5px;
+}
+.banner-content{
+    padding: 15%;
+}
+.banner-heading{
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+.banner-description{
+    color: #ffffff;
+    font-size: 1rem;
+}
+.action-btn{
+    display: flex;
+    align-items: flex-start;
+}
+.action-btn img{
+    width: 70%;
+}
+.action-btn p{
+    color: #fff;
+    max-width: 75px;
+}
+
+
+/* tagline section */
+
+.tagline-content{
+  background-color: #F4FBFB;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #A74170;
+  border-bottom: 2px solid #A74170;
+  background: none;
+  border-radius: none;
+}
+
+.nav-pills .nav-link{
+  border-bottom: 2px solid #cccccc;
+  border-radius: 0;
+  color: #2B2733;
+  width: 325px;
+}
+
+.tagline-image-section{
+    position: relative;
+}
+
+.bank-logo{
+      width: 25px;
+}
+
+.tagline-content{
+  padding: 5%;
+}
+
+.solution-btn::after{
+  height: 2px;
+  width: 25px;
+  content: "";
+  position:absolute;
+  background-color: #000;
+  left: 100%;
+}
+
+.tagline-content-description{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 15%;
+    flex-direction: column;
+    height: 100%;
+}
+.big-image{
+    position: relative;
+}
+.big-image::before{
+    content: '';
+    position: absolute;
+    height: 70%;
+    top: 25%;
+    right: 99%;
+    width: 60%;
+    background-image: url(img/lines-bg.png);
+}
+.small-image{
+    position: absolute;
+    bottom: -2%;
+    left: -90%;
+}
+.image-content{
+    position: relative;
+    bottom: -338px;
+    right: 25%;
+    background-color: #fff;
+    padding: 10px 15px;
+    border-bottom: 5px solid #A74170;
+}
+
+/* news Section */
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper-button-prev{
+    background: none;
+    top: 25% !important;
+    right: 9% !important;
+    left: auto !important;
+}
+  .swiper-button-prev::after, .swiper-button-next::after{
+    content: '' !important;
+  }
+
+  .swiper-button-next{
+    background: none;
+    background-size: cover;
+    background-position: center;
+    top: 25% !important;
+    right: 6% !important;
+    left: auto;
+}
+
+  /* News styles */
+  .news-section{
+    position: relative;
+    padding: 5%;
+}
+  .news-section .swiper{
+    padding: 4% 0% 0% 0%;
+  }
+  .news-card{
+    color: #fff;
+    text-align: left;
+    height: 300px;
+  }
+  .rectangular-logo{
+    width: 60%;
+  }
+  .news-content{
+    padding: 40px;
+  }
+  .news-content a{
+    color: #fff;
+    letter-spacing: 1.5px;
+  }
+
+
+  /* footer styles  */
+  .footer{
+    background-color: #2B2733;
+    padding: 5% 5% 2% 5%;
+    color: #fff;
+  }
+  ul{
+    padding: 0;
+  }
+  ul li{
+    list-style: none;
+    margin-bottom: 10px;
+  }
+.login-btn button{
+    background-color: transparent;
+    border: 1px solid #22B473;
+    color: #22B473;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.footer-left-container{
+    border-right:  2px solid #000;
+    height: 100%;
+    padding-right: 20px;
+}
+.footer-row{
+  border-bottom: 2px solid #000;
+}
+
+
+/* media query responsiveness */
+@media screen and (min-width:320px) and (max-width: 768px) {
+  .navbar{
+    padding: 10px 25px;
+  }
+
+ 
+  .footer-row .col-md-4:first-child{
+    padding: 0;
+  }
+
+  .banner-content{
+    padding: 7%;
+  }
+
+  .nav-pills .nav-link {
+    width: 250px;
+}
+  .tagline-content-description{
+    padding: 5%;
+  }
+  .image-content{
+    bottom: 0px;
+    right: 0;
+  }
+  .small-image{
+    top: -8%;
+    left: 70%;
+  }
+  .small-image img{
+    width: 100px;
+  }
+
+  #pills-tab{
+    display: flex;
+    justify-content: center;
+  }
+
+  .swiper-button-prev{
+    top: 12% !important;
+    right: 20% !important;
+  }
+  .swiper-button-next{
+    top: 12% !important;
+    right: 9% !important;
+  }
+
+.footer-left-container{
+  border: none;
+}
+
+}
+@media screen and (min-width:320px) and (max-width: 476px){
+  .terms{
+    flex-direction: column;
+    padding: 0;
+  }
+  
+
+  .footer-left-container, .footer-row{
+    border: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 990px){
+  .tagline-content-description{
+    padding: 5%;
+  }
+  .image-content{
+    bottom: 0px;
+    right: 75%;
+    width: 200px;
+  }
+  .small-image{
+    top: -3%;
+    left: 40%;
+  }
+  .small-image img{
+    width: 100px;
+  }
+}
+@media screen and (min-width: 990px) and (max-width:1024px){
+
+}
+@media screen and (min-width: 1024px) and (max-width: 1280px){
+  .small-image {
+    position: absolute;
+    bottom: -2%;
+    left: -150%;
+}
+
+.nav-pills .nav-link {
+width: 220px;
+}
+
+.image-content{
+  position: relative;
+  bottom: -270px;
+  width: 300px;
+  right: 90%;
+}
+.small-image img{
+  width: 140px;
+}
+}
+@media screen and (min-width: 1280px) and (max-width:1440px){
+  .nav-pills .nav-link {
+    width: 280px;
+    }
+    .image-content{
+      bottom: -300px;
+      right: 40%;
+    }  
+    .small-image{
+      left: -88%;
+    }
+    .small-image img{
+      width: 150px;
+    }
+}
+@media screen and (min-width:1536px){
+  .image-content {
+    position: relative;
+    bottom: -360px;
+    right: 31%;
+  }
+}
+@media screen and (min-width: 1880px){
+  .image-content {
+    position: relative;
+    bottom: -390px;
+    right: 31%;
+  }
+}
+@media screen and (min-width: 1920px) and (max-width: 2160px){
+.image-content{
+  bottom: -454px;
+}
+}
+@media screen and (min-width: 2160px){
+
+}
